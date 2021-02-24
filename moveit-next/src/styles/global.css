@@ -48,6 +48,8 @@ a{
     color: inherit;
 }
 
+<<<<<<< HEAD
+=======
 .experience-bar{
     display: flex;
     align-items: center;
@@ -87,3 +89,4 @@ span.current-experience{
     display: flex;
     flex-direction: column;
 }
+>>>>>>> main
