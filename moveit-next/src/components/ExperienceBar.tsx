@@ -1,5 +1,8 @@
+<<<<<<< HEAD
 import styles from '../styles/components/ExperienceBar.module.css'
 
+=======
+>>>>>>> 894cd09024fa414c6de717c93d233a582675c5dc
 export function ExperienceBar() {
     return (
         <header className={styles.experienceBar}>
