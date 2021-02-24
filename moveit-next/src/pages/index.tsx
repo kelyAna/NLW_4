@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 import { CompletedChallenges } from '../components/CompletedChallenges'
 import { CountDown } from '../components/CountDown'
 import { ExperienceBar } from '../components/ExperienceBar'
@@ -25,6 +26,14 @@ export default function Home() {
           
         </div>
       </section>
+=======
+import { ExperienceBar } from '../components/ExperienceBar'
+
+export default function Home() {
+  return (
+    <div className="container">
+      <ExperienceBar />
+>>>>>>> main
     </div>
   )
 }
