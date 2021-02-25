@@ -7,6 +7,7 @@ import { CountDown } from '../components/CountDown'
 import { ExperienceBar } from '../components/ExperienceBar'
 import { Profile } from '../components/Profile'
 import { ChallengeBox } from '../components/ChallengeBox'
+import { CountDownProvider } from '../contexts/CountDownContex'
 
 export default function Home() {
   return (
@@ -16,16 +17,18 @@ export default function Home() {
       </Head>
       <ExperienceBar />
 
-      <section>
-        <div>
-          <Profile/>
-          <CompletedChallenges/>
-          <CountDown/>
-        </div>
-        <div>
-          <ChallengeBox/>
-        </div>
-      </section>
+      <CountDownProvider>
+        <section>
+          <div>
+            <Profile />
+            <CompletedChallenges />
+            <CountDown />
+          </div>
+          <div>
+            <ChallengeBox />
+          </div>
+        </section>
+      </CountDownProvider>
     </div>
   )
 }

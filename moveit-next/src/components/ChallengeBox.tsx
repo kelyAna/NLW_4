@@ -1,10 +1,22 @@
 import { useContext } from 'react';
 import { ChallengesContext } from '../contexts/ChallengesContext'
+import { CountDownContext } from '../contexts/CountDownContex';
 
 import styles from '../styles/components/ChallengeBox.module.css'
 
 export function ChallengeBox() {
   const { activeChallenge, resetChallenge, completeChallenge } = useContext(ChallengesContext)
+  const { resetCountDown } = useContext(CountDownContext);
+
+  function handleChallengeSucceeded(){
+    completeChallenge();
+    resetCountDown();
+  }
+
+  function handleChallengeFailed(){
+    resetChallenge();
+    resetCountDown();
+  }
 
   return (
     <div className={styles.challengeBoxContainer}>
@@ -22,7 +34,7 @@ export function ChallengeBox() {
             <button
               type="button"
               className={styles.challengeFailedButton}
-              onClick={resetChallenge}
+              onClick={handleChallengeFailed}
             >
               Falhei
             </button>
@@ -30,7 +42,7 @@ export function ChallengeBox() {
             <button
               type='button'
               className={styles.challengeSuccedButton}
-              onClick={completeChallenge}
+              onClick={handleChallengeSucceeded}
             >
               Completei
             </button>
