@@ -48,6 +48,10 @@ a{
     color: inherit;
 }
 
+section{
+    padding: 5rem;
+}
+
 
 .experience-bar{
     display: flex;
