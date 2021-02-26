@@ -22,6 +22,7 @@
 
 .countDownContainer > div span{
     flex: 1;
+    background-color: var(--white);
 }
 
 .countDownContainer > div span:first-child{
@@ -33,8 +34,9 @@
 }
 
 .countDownContainer > span{
-    font-size: 6.25rem;
+    font-size: 3.25rem;
     margin: 0 0.5rem;
+    color: var(--white);
 }
 
 .countDownButton{
