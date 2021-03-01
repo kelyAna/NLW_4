@@ -23,7 +23,7 @@
 
 ### How run project
 
-cd moveit-next
+> cd moveit-next
 ```bash
 npm install
 ```
