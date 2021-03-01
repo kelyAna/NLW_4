@@ -17,7 +17,7 @@
 > - [X] Challenges
 > - [X] Level advance
 
-### Technologies and dependencies
+### Technologies and dependencies :wrench:
 
 > React v14.15.5
 > npm 6.14.11
