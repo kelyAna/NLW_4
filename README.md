@@ -18,8 +18,8 @@
 
 ### Technologies and dependencies
 
-- React v14.15.5
-- npm 6.14.11
+> React v14.15.5
+> npm 6.14.11
 
 ### How run project
 
