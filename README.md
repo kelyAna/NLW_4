@@ -12,9 +12,9 @@
 
 ### Project features
 
-- [X] Count time
-- [X] Challenges
-- [X] Level advance
+> - [X] Count time
+> - [X] Challenges
+> - [X] Level advance
 
 ### Technologies and dependencies
 
