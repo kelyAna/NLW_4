@@ -18,11 +18,16 @@
 
 ### Technologies and dependencies
 
+- React v14.15.5
+- npm 6.14.11
 
+### How run project
 
-
-
-
-
-
+cd moveit-next
+```bash
+npm install
+```
+```bash
+npm run dev
+```
 > Status: Completed :heavy_check_mark:
