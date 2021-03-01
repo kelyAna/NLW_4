@@ -1,6 +1,6 @@
 ## Next Level Week - 4ª edição ( Rumo ao próximo nível )
 
-<h2 align="center">Move.it</h2>
+<h2 align="center">Move.it :heavy_check_mark:</h2>
 
 ### Project description
 
@@ -10,7 +10,8 @@
 
 <img src="https://github.com/kelyAna/moveit-nlw4/blob/main/moveit.PNG" />
 
-### Project features
+### Project features 💭
+
 
 > - [X] Count time
 > - [X] Challenges
