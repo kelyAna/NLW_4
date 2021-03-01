@@ -1,6 +1,6 @@
 ## Next Level Week - 4ª edição ( Rumo ao próximo nível )
 
-<h2 align="center">Move.it :heavy_check_mark:</h2>
+<h2 align="center" align-items="center"><span>Move.it</span> <img src="https://github.com/kelyAna/moveit-nlw4/blob/main/moveit-next/public/favicon.png" width="30"></h2>
 
 ### Project description
 
@@ -22,7 +22,7 @@
 > React v14.15.5
 > npm 6.14.11
 
-### How run project
+### How run project :fast_forward:
 
 > cd moveit-next
 ```bash
